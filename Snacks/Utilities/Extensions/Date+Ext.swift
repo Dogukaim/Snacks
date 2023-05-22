@@ -1,0 +1,19 @@
+//
+//  Date+Ext.swift
+//  Snacks
+//
+//  Created by Dogukaim on 21.05.2023.
+//
+
+import Foundation
+
+extension Date {
+    
+    var eighteenYearsAgo: Date {
+        Calendar.current.date(byAdding: .year,value: -18 ,to: Date())!
+    }
+    
+    var oneHundredTenYearsAgo: Date {
+        Calendar.current.date(byAdding: .year,value: -110,to: Date())!
+    }
+}
